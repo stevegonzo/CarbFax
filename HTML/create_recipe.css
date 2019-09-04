@@ -1,0 +1,98 @@
+#recipe_form_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: space-around;
+}
+
+#recipe_info_box {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 5px;
+    border-width: 2px;
+    color: black;
+    border: solid;
+    margin: 5px;
+    padding: 10px;
+}
+
+#added_item_box {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 5px;
+    border-width: 2px;
+    color: black;
+    border: solid;
+    margin: 5px;
+
+}
+
+
+#display_item_container {
+    height: 200px;
+    width: 100%;
+    overflow: auto;
+    background-color: white;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    border: solid;
+    border-radius: 5px;
+}
+
+.food_search_item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    padding: 0px;
+    border: solid;
+    margin: 2px;
+    text-align: center;
+    border-width: 1px;
+}
+
+.food_search_item p {
+    color: black;
+    pointer-events: none;
+}
+
+.food_search_item:hover {
+    transition: transform 0.5s;
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
+    border-color: green;
+    border-width: 2px;
+}
+
+.food_search_item > * {
+      pointer-events: none;
+}
+
+#submit_recipe_btn_wrapper {
+    display:flex;
+    justify-content: center;
+}
+
+hr {
+    display: block;
+    padding: 0;
+    margin: 8px auto;
+    height: 1px;
+    width: 100%;
+    font-size: 1px;
+    border: none;
+    border-bottom: 1px solid black;
+ }
+
+ #item_selected_box {
+     border: solid;
+     border-color: black;
+ }
